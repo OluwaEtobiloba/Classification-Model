@@ -1,4 +1,4 @@
-# Classification-Model
+# Predicting Top-Two-Box Customer Satisfaction for Furniture & Décor Purchases
 
 In the highly competitive furniture & décor segment of Brazil’s largest online marketplace, understanding and pre-empting customer dissatisfaction is critical to driving repeat business and positive word-of-mouth. Our business case centers on predicting whether a customer’s five-point review (1–5) will fall into the “top-two-box” (scores of 4 or 5) versus lower scores. By converting the original Likert scale into a binary target (sat_t2b), we simplify reporting and create actionable signals for customer support and product teams.
 
