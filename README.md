@@ -8,11 +8,6 @@ To overcome this, we deployed a Balanced Random Forest within an SMOTE pipeline.
 
 Model Results
 
-Metric	Logistic Regression	Balanced RF + SMOTE
-ROC AUC	0.60	0.79
-Accuracy	0.65	0.78
-Macro-averaged F₁	0.58	0.72
-
 Logistic Regression struggled with the minority “dissatisfied” class: precision 0.40, recall 0.43, F₁ 0.42, catching fewer than half of unhappy buyers with many false alarms.
 
 Balanced RF + SMOTE markedly improved both classes: for dissatisfied customers, precision rose to 0.67 and recall to 0.52 (F₁ = 0.58); for satisfied buyers, precision/recall climbed to 0.82/0.89 (F₁ = 0.86). Overall discrimination jumped from near-random (AUC 0.60) to strong (AUC 0.79).
